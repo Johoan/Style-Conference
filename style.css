@@ -1,0 +1,483 @@
+body{
+	margin: 0;
+	
+}
+
+.container{
+	
+}
+
+.div1{
+	background: #293f50;
+	padding-bottom: 20px;
+}
+
+.content{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+header{
+	padding-bottom: 70px;
+	
+
+}
+
+.headernav{
+	padding-top: 55px;
+}
+
+.logo{
+	
+    float: left;
+    font-size: 48px;
+    font-weight: lighter;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding: 40px 0 22px 0;
+    text-transform: uppercase;
+}
+
+.logo a{
+	font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica;
+	font-weight: 200;
+	font-variant: normal;
+}
+
+.logo a, .sect1 a, a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.style a{
+	text-transform: uppercase;
+}
+
+.regbutton{
+	text-align: center;
+}
+ 
+
+.sect1 a{
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+	border: 1px solid #fff;
+    padding: 20px 30px;
+
+}
+
+.tagline{
+	text-align: right;
+	color: #648880;
+	font-size: 21px;
+	font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica;
+}	
+
+.sect1 h2{
+	color: #648880;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 800;
+	font-family:  "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-bottom: 0px;
+}
+
+.sect1 p{
+	text-align: center;
+	color: #fff;
+	font: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.regbutton{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.float{
+	display: float;
+	float: right;
+	
+	
+}
+
+nav a{
+		color: #fff;
+		text-decoration: none;
+	}
+	
+.section1{
+	/*
+	background: #fff;
+    margin-bottom: 10px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	*/
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+	
+.container2{
+	/*width: 100%;
+    height: auto;
+    margin: 33px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+	*/
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(3, 3fr);
+	padding: 10px;
+	text-align: left;
+}	
+	
+.teaser img {
+	border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%;
+}
+
+.teaser h5, .teaser h3 a, .teaser p{
+	color: #a9b2b9;
+}
+
+.teaser h3 a{
+	margin-bottom: 22px;
+	font-size: 21px;
+}
+
+.teaser h5{
+	font-size: 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.teaser p{
+	font-size: 14px;
+}
+
+.fonts{
+	
+}
+
+.fonts a{
+	color: #648880;
+	font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica;
+}
+
+.fonts h3{
+	font-weight: lighter;
+}
+
+p.fonts{
+	letter-spacing: .5px;
+	color: #888;
+	text-align: left;
+}
+
+.teaser h3, .teaser p{
+	font: 800 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer{
+	background: #293f50;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.content span{
+	color: #648880;
+}
+
+.float a, .content span{
+	font-size: 14px;
+	
+}
+
+.float a{
+	padding-left: 15px;
+	font-weight: light;
+}
+
+
+/*__________________________________________________________Speaker.html________________________________________________________________*/
+
+
+
+.logo1 a{
+	font-family:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+	
+}
+
+.logo1 a, .sect1 a, a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.header1{
+	padding-top: 0px;
+	padding-bottom: 80px;
+	margin-top: 0;
+
+}
+
+.div0{
+	background: #293f50;
+	
+	padding-top: 5px;
+}
+
+
+.div2{
+	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.div2 h2, .div2 p{
+	text-align: center;
+	font-family:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+.div2 h2, .left h3{
+	color: #648880;
+}
+
+.left h5{
+	color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.left p{
+	color: #888;
+    font: 800 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.div2 p{
+	color: #888;
+	
+	
+}
+
+.speakerdiv{
+	/* display: grid;
+	grid-gap: 300px;
+	grid-template-columns: repeat(2, 2fr);
+	padding: 10px;
+	text-align: left;
+	*/
+	display: flex;
+	
+}
+
+.left h3 h4 p{
+	text-align: left;
+	
+}
+.aside{
+	
+	flex: right;
+	padding-left: 70px;
+	
+}
+.aside div{
+	border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    margin-top: 130px;
+    padding: 19px 40px 19px 40px;
+	
+    text-align: center;
+	
+	
+		
+		
+}
+
+.aside img{
+	
+	border-radius: 50%;
+    height: 130px;
+    margin: -66px 0 22px 0;
+    vertical-align: top;
+}
+
+.aside div a{
+	color: #648880;
+    text-decoration: none;
+}
+
+
+
+/*__________________________________________________________Schedule.html________________________________________________________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*__________________________________________________________Venue.html________________________________________________________________*/
+
+address{
+	font-style: none;
+}
+
+.appear p{
+	font-size: 21px;
+    line-height: 33px;
+	color: #888;
+}
+
+
+.grid{
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(2, 2fr);
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
+}
+
+.par, address{
+	font: 800 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.grid h3{
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	color: #648880;
+	font-weight: 400;
+}
+
+.par a, .par span{
+	color: #888;
+}
+
+.venue-map{
+	height: 264px;
+	width: 639.922px;
+	
+}
+
+.right{
+
+}
+
+
+
+/*__________________________________________________________Venue.html________________________________________________________________*/
+
+.reggrid{
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(2, 2fr);
+}
+
+h3{
+	color: #648880;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 21px;
+}
+
+h5{
+	color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.reggrid{
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+.reggrid div{
+	width: 600px;
+}
+
+.reggrid p, .reggrid ul li{
+	font: 800 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.reggrid h4{
+	color: #648880;
+	font-size: 18px;
+}
+
+form{
+	padding-left: 10px;
+    
+	
+}
+
+label, input{
+	color: #648880;
+    cursor: pointer;
+    
+	font: 400 16px/22px  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input[type=submit]{
+	    border: 0;
+    background: #648880;
+    padding: 11px 30px;
+    font-size: 14px;
+	color: #fff;
+	width: 50%;
+	border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+textarea{
+	height: 78px;
+	border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+}
+
+input[type=text], input[type=email]{
+	    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+	width: 250px;
+}
+
+select{
+	border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+}
+
