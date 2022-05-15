@@ -336,6 +336,12 @@ hr{
   border-radius: 1px;
 }
 
+.tdr{
+	padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
 thead{
 	line-height: 44px;
 }
