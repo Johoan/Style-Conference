@@ -321,7 +321,44 @@ footer{
 
 /*__________________________________________________________Schedule.html________________________________________________________________*/
 
+table {
+	padding-bottom: 50px;
+	padding-top: 50px;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+	
+	font: 300 16px/22px  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
+hr{
+	border: 10px solid #293f50;
+  border-radius: 1px;
+}
+
+thead{
+	line-height: 44px;
+}
+
+thead th{
+	color: #648880;
+    font-size: 24px;
+}
+th{
+	
+	padding-right: 45px;
+    text-align: right;
+    width: 20%;
+}
+
+th, td{
+	padding-bottom: 22px;
+    vertical-align: top;
+}
+
+td, td span, td a, time{
+	color: #a9b2b9;
+}
 
 
 
@@ -383,7 +420,7 @@ address{
 
 
 
-/*__________________________________________________________Venue.html________________________________________________________________*/
+/*__________________________________________________________Register.html________________________________________________________________*/
 
 .reggrid{
 	display: grid;
