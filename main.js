@@ -16,7 +16,6 @@ $(document).ready(function(){
     
     $(".jq").css("color", "#648880");
     $(".jq").css("fontSize", "17px");
-    $("nav").css("background-color", "#f6f1d3");
     $(".jq").css("textAlign", "center");
   });
   $(".jq").mouseout(function(){
@@ -24,5 +23,6 @@ $(document).ready(function(){
 	$(".jq").css("color", "#fff");
 	$(".jq").css("fontSize", "14px");
 	$(".jq").css("background-color", "#293f50");
+	
   });
 });
